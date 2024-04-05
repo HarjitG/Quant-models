@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+matplotlib = "*"
+pandas = "*"
+numpy = "*"
+pandas-datareader = "*"
+yfinance = "*"
+statsmodels = "*"
+scikit-learn = "*"
+pyportfolioopt = "*"
+pandas-ta = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
